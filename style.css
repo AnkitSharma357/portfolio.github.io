@@ -1,0 +1,268 @@
+*{
+    box-sizing: border-box;
+    padding: 0px;
+    margin: 0px;
+}
+/* body{
+    background-color: rgba(226, 222, 222, 0.936);
+} */
+div.banner{
+    background-color: rgb(4, 66, 66);
+    height: 8rem;
+    width: 65.5rem;
+    text-align: center;
+    object-position: center;
+}
+div.menu{
+    text-align: center;
+    /* background-color: red; */
+    height: 5rem;
+    width:30rem;
+    margin-left: 16rem;
+    font-family: consolas;
+
+}
+ul.list{
+    display: inline-flex;
+    list-style: none;
+    color: white;
+    
+}
+li.list1{
+    padding: 1rem 1rem 1rem 1rem;
+}
+li.list1 a:hover{
+    color:blue;
+}
+li.list1 a{
+    font-size: 2rem;
+    text-decoration: none;
+    font-weight: bold;
+    color: white;
+}
+/* -------------about start------------- */
+div.About{
+    display: inline-flex;
+    height: auto;
+    width: 65.5rem;
+}
+div.me p{
+    font-family: consolas;
+    font-size: 2rem;
+    padding: 0.5rem;
+}
+div.me{
+    border-radius: 25px;
+    box-shadow: 1px 3px 5px 1px black;
+    height: auto;
+    width: 50rem;
+    margin-left: 10rem;
+    margin-right: 10rem;
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+}
+div.photo{
+    box-shadow: 1px 3px 5px 1px black;
+    border-radius: 25px;
+    margin-left: 25rem;
+    margin-right: 10rem;
+    background-image:url(elctronic5.jpeg);
+    background-size: 100% 100%;
+    height: 15rem;
+    width: 15rem;
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+}
+h1{
+    font-size: 4rem;
+    color:purple ;
+    font-family: consolas;
+    font-weight: bold;
+}
+div.education{
+    box-shadow: 1px 3px 5px 1px black;
+    border-radius: 25px;
+    height: auto;
+    width: 40rem;
+    margin-left: 12rem;
+    margin-right: 10rem;
+}
+p{
+    font-family: consolas;
+    font-size: 1.5rem;
+    padding: 0.5rem;
+}
+div.achevment{
+    box-shadow: 1px 3px 5px 1px black;
+    border-radius: 25px;
+    height: auto;
+    width: 40rem;
+    margin-left: 12rem;
+    margin-right: 10rem;
+}
+div.Project{
+    box-shadow: 1px 3px 5px 1px black;
+    border-radius: 25px;
+    height: auto;
+    width: 40rem;
+    margin-left: 12rem;
+    margin-right: 10rem;
+}
+div.uno{
+    background-image: url(uno.png);
+    background-size: 100% 100%;
+    /* background-color: red; */
+    height: 10rem;
+    width: 15rem;
+    margin-left: 15rem;
+    margin-right: 10rem;
+}
+.Project p a{
+    text-decoration: none;
+    color: black;
+}
+.Project p a:hover{
+    color: blue;
+}
+div.proinf{
+    box-shadow: 1px 1px inset black;
+    border-radius: 25px;
+    margin-right: 1rem;
+}
+div.Contact{
+    box-shadow: 1px 3px 5px 1px black;
+    border-radius: 25px;
+    height: auto;
+    width: 40rem;
+    margin-left: 12rem;
+    margin-right: 10rem;
+}
+div.image{
+    display: inline-flex;
+    height: 10rem;
+    width: 38rem;
+    margin-left: 1rem;
+    margin-right: 1rem;
+}
+div.gmail{
+    border-radius: 25px;
+    box-shadow: 1px 3px 5px 1px black;
+    background-image: url(gmail.jpg);
+    background-size: 100% 100%;
+    height: 10rem;
+    width: 10rem;
+    margin-left: 2rem;
+}
+div.linkedin{
+    border-radius: 25px;
+    box-shadow: 1px 3px 5px 1px black;
+    background-image: url(in.png);
+    background-size: 100% 100%;
+    height: 10rem;
+    width: 10rem;
+    margin-left: 2rem;
+}
+div.github{
+    border-radius: 80px;
+    box-shadow: 1px 3px 5px 1px black;
+    background-image: url(github.png);
+    background-size: 100% 100%;
+    height: 10rem;
+    width: 10rem;
+    margin-left: 2rem;
+}
+div.resume{
+    height: auto;
+    width: 40rem;
+    margin-left: 12rem;
+    margin-right: 10rem;
+}
+div.button{
+    box-shadow: 1px 3px 5px 1px black;
+    text-align: center;
+    background-color: aqua;
+    border-radius: 30px;
+    height: 5rem;
+    width: 30rem;
+    margin-left: 4rem;
+    margin-right: 10rem;
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+}
+div.button h1{
+    font-family: consolas;
+    color: white;
+}
+div.resume a{
+    text-decoration: none;
+    color: white;
+}
+div.button:hover{
+    box-shadow: 5px 5px gray;
+}
+div.motor{
+    box-shadow: 1px 3px 5px 1px black;
+    border-radius: 30px;
+    background-image: url(motorspeed.png);
+    background-size: 100% 100%;
+    height: 10rem;
+    width:20rem;
+}
+div.washing{
+    box-shadow: 1px 3px 5px 1px black;
+    border-radius: 30px;
+    background-image: url(washing.png);
+    background-size: 100% 100%;
+    height: 10rem;
+    width: 23rem;
+}
+div.robot{
+    box-shadow: 1px 3px 5px 1px black;
+    border-radius: 30px;
+    background-image: url(robot.png);
+    background-size: 100% 100%;
+    height: 20rem;
+    width: 20rem;
+}
+div.calculator{
+    box-shadow: 1px 3px 5px 1px black;
+    border-radius: 30px;
+    background-image: url(calculator.png);
+    background-size: 100% 100%;
+    height: 20rem;
+    width: 20rem;
+}
+#con:hover{
+    box-shadow: 5px 5px gray;
+    border-radius: 10px;
+}
+div.parts{
+    display: inline-flex;
+    box-shadow: 1px 3px 5px 1px black;
+    border-radius: 25px;
+    height: 10rem;
+    width: 30rem;
+}
+div.relay{
+    background-image: url(relay.jpg);
+    border-radius: 25px;
+    background-size: 100% 100%;
+    height: 10rem;
+    width: 15rem;
+}
+div.blue{
+    border-radius: 25px;
+    background-image: url(blue.JPG);
+    background-size: 100% 100%;
+    height: 10rem;
+    width: 15rem;
+}
+div.IR{
+    box-shadow: 1px 3px 5px 1px black;
+    border-radius: 25px;
+    border-radius: 25px;
+    background-image: url(IR.jpg);
+    background-size: 100% 100%;
+    height: 10rem;
+    width: 15rem;
+}
